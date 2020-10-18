@@ -14,3 +14,6 @@ p1 = Pessoa.por_ano_nascimento('Simone', 1988)
 print(p1)
 print(p1.nome, p1.idade)
 p1.get_ano_nascimento()
+print(Pessoa.gera_id())
+print(p1.gera_id())
+
